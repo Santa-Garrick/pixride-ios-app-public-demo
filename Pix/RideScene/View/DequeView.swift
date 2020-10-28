@@ -16,7 +16,7 @@ class DequeView: UIView {
    var layoutDelegate: DequeViewLayoutDelegate?
    var animationDuration: Double = 0.3
    
-   // this property keeps bounds size during last call of layoutSubviews()
+   // this property stores bounds size during last call of layoutSubviews()
    private var lastBoundsSize: CGSize = .zero
 
    var cells: [RideViewCell] {
